@@ -92,7 +92,7 @@ export default function Index() {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-3xl font-serif font-bold text-primary">ÉLITE</h1>
+          <h1 className="text-3xl font-serif font-bold text-primary">Миша и Артём</h1>
           
           <nav className="hidden md:flex items-center gap-8">
             {['home', 'catalog', 'about', 'delivery', 'contacts'].map((section) => (
@@ -127,7 +127,7 @@ export default function Index() {
                 </DialogHeader>
                 {isLoggedIn ? (
                   <div className="space-y-4 py-4">
-                    <p className="text-muted-foreground">Добро пожаловать в ÉLITE</p>
+                    <p className="text-muted-foreground">Добро пожаловать в Миша и Артём</p>
                     <Button onClick={() => setIsLoggedIn(false)} variant="outline" className="w-full">
                       Выйти
                     </Button>
@@ -238,7 +238,7 @@ export default function Index() {
               <div className="absolute inset-0 bg-gradient-to-b from-background via-background/50 to-background" />
               <div className="relative z-10 text-center space-y-6 animate-fade-in px-6">
                 <h2 className="text-6xl md:text-8xl font-serif font-light tracking-wider">
-                  Роскошь в деталях
+                  Миша и Артём
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   Эксклюзивная коллекция премиум-товаров для истинных ценителей качества
@@ -358,7 +358,7 @@ export default function Index() {
             <h2 className="text-5xl font-serif mb-8 animate-fade-in">О бренде</h2>
             <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
               <p className="animate-fade-in" style={{ animationDelay: '100ms' }}>
-                ÉLITE — это воплощение роскоши и изысканного вкуса. Мы создали пространство, где каждая деталь имеет значение, а каждый товар рассказывает свою историю о мастерстве и совершенстве.
+                Миша и Артём — это воплощение роскоши и изысканного вкуса. Мы создали пространство, где каждая деталь имеет значение, а каждый товар рассказывает свою историю о мастерстве и совершенстве.
               </p>
               <p className="animate-fade-in" style={{ animationDelay: '200ms' }}>
                 Наша коллекция включает тщательно отобранные премиум-товары от ведущих мировых брендов. Мы работаем только с проверенными производителями, которые разделяют нашу философию качества и внимания к деталям.
@@ -460,7 +460,7 @@ export default function Index() {
         <div className="container mx-auto px-6 py-12">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-serif mb-4 text-primary">ÉLITE</h3>
+              <h3 className="text-2xl font-serif mb-4 text-primary">Миша и Артём</h3>
               <p className="text-sm text-muted-foreground">
                 Премиум-товары для ценителей качества и стиля
               </p>
@@ -483,7 +483,7 @@ export default function Index() {
           </div>
           <Separator />
           <div className="mt-8 text-center text-sm text-muted-foreground">
-            <p>© 2024 ÉLITE. Все права защищены.</p>
+            <p>© 2024 Миша и Артём. Все права защищены.</p>
           </div>
         </div>
       </footer>
