@@ -23,7 +23,7 @@ type CartItem = Product & { quantity: number };
 const products: Product[] = [
   {
     id: 1,
-    name: 'Швейцарские часы Elite',
+    name: 'Год',
     price: 189000,
     category: 'Аксессуары',
     image: 'https://cdn.poehali.dev/projects/cff2dda3-ce92-46c8-8602-ec29f554e8da/files/b4b3cf1a-4957-4ef2-86ff-bf3d9fad90a1.jpg',
@@ -31,7 +31,7 @@ const products: Product[] = [
   },
   {
     id: 2,
-    name: 'Кожаная сумка Milano',
+    name: 'Год',
     price: 145000,
     category: 'Сумки',
     image: 'https://cdn.poehali.dev/projects/cff2dda3-ce92-46c8-8602-ec29f554e8da/files/f5324908-6452-4b79-b605-c03f37f6de4e.jpg',
@@ -39,7 +39,7 @@ const products: Product[] = [
   },
   {
     id: 3,
-    name: 'Парфюм Royal Essence',
+    name: 'Год',
     price: 32000,
     category: 'Парфюмерия',
     image: 'https://cdn.poehali.dev/projects/cff2dda3-ce92-46c8-8602-ec29f554e8da/files/1c15699f-2df7-4f01-bee7-87d4b5f75707.jpg',
